@@ -7,7 +7,7 @@ namespace Mert
         static void Main(string[] args)
         {
             MyList<string> sehir = new MyList<string>();
-            sehirler.Add("Ankara");
+            sehir.Add("Ankara");
             Console.WriteLine(sehir.Count);
         }
     }
